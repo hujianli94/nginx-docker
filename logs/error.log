@@ -1,0 +1,85 @@
+2022/10/31 02:57:59 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:57:59 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:00 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:01 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:02 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:05 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:08 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:15 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 02:58:29 [emerg] 1#1: PEM_read_bio_DHparams("/etc/nginx/ssl.d/certs/gitee.co.pem") failed (SSL: error:0909006C:PEM routines:get_name:no start line:Expecting: DH PARAMETERS)
+2022/10/31 03:17:59 [warn] 1#1: "ssl_stapling" ignored, host not found in OCSP responder "zerossl.ocsp.sectigo.com" in the certificate "/etc/nginx/ssl.d/certs/gitee.co.crt"
+2022/10/31 03:17:59 [warn] 1#1: "ssl_stapling" ignored, host not found in OCSP responder "zerossl.ocsp.sectigo.com" in the certificate "/etc/nginx/ssl.d/certs/gitee.co.crt"
+2022/10/31 03:17:59 [warn] 1#1: "ssl_stapling" ignored, host not found in OCSP responder "zerossl.ocsp.sectigo.com" in the certificate "/etc/nginx/ssl.d/certs/gitee.co.crt"
+2022/10/31 03:17:59 [notice] 1#1: using the "epoll" event method
+2022/10/31 03:17:59 [notice] 1#1: nginx/1.22.0
+2022/10/31 03:17:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/31 03:17:59 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/10/31 03:17:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/31 03:17:59 [notice] 1#1: start worker processes
+2022/10/31 03:17:59 [notice] 1#1: start worker process 22
+2022/10/31 03:17:59 [notice] 1#1: start worker process 23
+2022/10/31 03:17:59 [notice] 1#1: start worker process 24
+2022/10/31 03:17:59 [notice] 1#1: start worker process 25
+2022/10/31 07:29:53 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2022/10/31 07:29:53 [notice] 1#1: unknown process 39 exited with code 100
+2022/10/31 07:29:53 [alert] 1#1: unknown process 41 exited on signal 2
+2022/10/31 07:29:53 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/10/31 07:51:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/31 07:51:58 [notice] 24#24: gracefully shutting down
+2022/10/31 07:51:58 [notice] 22#22: gracefully shutting down
+2022/10/31 07:51:58 [notice] 24#24: exiting
+2022/10/31 07:51:58 [notice] 22#22: exiting
+2022/10/31 07:51:58 [notice] 24#24: exit
+2022/10/31 07:51:58 [notice] 22#22: exit
+2022/10/31 07:51:58 [notice] 25#25: gracefully shutting down
+2022/10/31 07:51:58 [notice] 23#23: gracefully shutting down
+2022/10/31 07:51:58 [notice] 25#25: exiting
+2022/10/31 07:51:58 [notice] 23#23: exiting
+2022/10/31 07:51:58 [notice] 25#25: exit
+2022/10/31 07:51:58 [notice] 23#23: exit
+2022/10/31 07:51:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/31 07:51:58 [notice] 1#1: worker process 24 exited with code 0
+2022/10/31 07:51:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/31 07:51:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/31 07:51:58 [notice] 1#1: worker process 23 exited with code 0
+2022/10/31 07:51:58 [notice] 1#1: worker process 25 exited with code 0
+2022/10/31 07:51:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/31 07:51:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/31 07:51:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/31 07:51:58 [notice] 1#1: worker process 22 exited with code 0
+2022/10/31 07:51:58 [notice] 1#1: exit
+2022/10/31 07:52:02 [notice] 1#1: using the "epoll" event method
+2022/10/31 07:52:02 [notice] 1#1: nginx/1.22.0
+2022/10/31 07:52:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/31 07:52:02 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/10/31 07:52:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/31 07:52:02 [notice] 1#1: start worker processes
+2022/10/31 07:52:02 [notice] 1#1: start worker process 22
+2022/10/31 07:52:02 [notice] 1#1: start worker process 23
+2022/10/31 07:52:02 [notice] 1#1: start worker process 24
+2022/10/31 07:52:02 [notice] 1#1: start worker process 25
+2022/10/31 07:53:34 [warn] 23#23: no resolver defined to resolve zerossl.ocsp.sectigo.com while requesting certificate status, responder: zerossl.ocsp.sectigo.com, certificate: "/etc/nginx/ssl.d/certs/gitee.co.crt"
+2022/10/31 08:55:38 [warn] 23#23: no resolver defined to resolve zerossl.ocsp.sectigo.com while requesting certificate status, responder: zerossl.ocsp.sectigo.com, certificate: "/etc/nginx/ssl.d/certs/gitee.co.crt"
+2022/10/31 09:05:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/31 09:05:28 [notice] 23#23: gracefully shutting down
+2022/10/31 09:05:28 [notice] 24#24: gracefully shutting down
+2022/10/31 09:05:28 [notice] 24#24: exiting
+2022/10/31 09:05:28 [notice] 23#23: exiting
+2022/10/31 09:05:28 [notice] 24#24: exit
+2022/10/31 09:05:28 [notice] 23#23: exit
+2022/10/31 09:05:28 [notice] 25#25: gracefully shutting down
+2022/10/31 09:05:28 [notice] 25#25: exiting
+2022/10/31 09:05:28 [notice] 25#25: exit
+2022/10/31 09:05:28 [notice] 22#22: gracefully shutting down
+2022/10/31 09:05:28 [notice] 22#22: exiting
+2022/10/31 09:05:28 [notice] 22#22: exit
+2022/10/31 09:05:28 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/31 09:05:28 [notice] 1#1: worker process 23 exited with code 0
+2022/10/31 09:05:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/31 09:05:28 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/31 09:05:28 [notice] 1#1: worker process 25 exited with code 0
+2022/10/31 09:05:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/31 09:05:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/31 09:05:28 [notice] 1#1: worker process 22 exited with code 0
+2022/10/31 09:05:28 [notice] 1#1: worker process 24 exited with code 0
+2022/10/31 09:05:28 [notice] 1#1: exit
